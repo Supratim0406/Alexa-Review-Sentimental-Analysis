@@ -1,4 +1,5 @@
 # Alexa-Review-Sentimental-Analysis
+<img width="2480" height="1396" alt="image" src="https://github.com/user-attachments/assets/1125765f-9a7b-4c88-8380-59dce02f5104" />
 
 ## Project overflow
 
