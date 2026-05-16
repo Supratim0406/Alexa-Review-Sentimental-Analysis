@@ -210,7 +210,6 @@ Here are some visualizations from the project:
 <img width="838" height="552" alt="image" src="https://github.com/user-attachments/assets/26211f89-47c7-4bc0-b063-2aa26b37a1f1" />
 
 
-
 <img width="1217" height="535" alt="image" src="https://github.com/user-attachments/assets/6155d404-be33-478d-a5db-84b15c6a51c9" />
 
 
@@ -218,14 +217,11 @@ Here are some visualizations from the project:
 
 ## XGBoost Classifier (Tuned)
 
-Among all the trained models, the tuned XGBoost Classifier achieved the best overall performance for sentiment classification.
+Among all the trained models, the tuned MultinomialNB Classifier achieved the best overall performance for sentiment classification.
 
-### Why XGBoost performed best
+## Conclusion
 
-- Handles sparse text features efficiently
-- Works well with high-dimensional NLP data
-- Provides better generalization
-- Reduces overfitting using boosting techniques
+I choose recall as the primary evaluation metric because correctly identifying dfferent reviews are critical to achieving our business objectives. By selecting a model with a high recall score, we aim to ensure that we correctly identify as many different customer review as possible, even if it means that we may have some false positives. Overall, we believe that the MultinomialNB (tuned) is the best choice for our needs and will help us achieve a positive business impact.Therefore, we can conclude that the best model to implement for analysis of the Alexa reviews is the MultinomialNB (tuned) which has a decent accuracy of 98% on the training data and 93% accuracy on the testing data.
 
 ---
 
