@@ -215,7 +215,7 @@ Here are some visualizations from the project:
 
 # 🏆 Best Performing Model
 
-## XGBoost Classifier (Tuned)
+## MultinomialNB Classifier (Tuned)
 
 Among all the trained models, the tuned MultinomialNB Classifier achieved the best overall performance for sentiment classification.
 
