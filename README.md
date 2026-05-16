@@ -199,6 +199,21 @@ Models are evaluated using:
 
 ---
 
+# 📊 Visualizations
+Here are some visualizations from the project:
+<img width="938" height="682" alt="image" src="https://github.com/user-attachments/assets/dc2d042b-6794-46e7-a6df-c529d25c6c24" />
+
+<img width="1030" height="552" alt="image" src="https://github.com/user-attachments/assets/3df1d91d-292b-42d8-b332-27dc6a147e11" />
+
+<img width="863" height="682" alt="image" src="https://github.com/user-attachments/assets/5bc082c8-a4c0-4a22-8df3-e7dd62110145" />
+
+<img width="838" height="552" alt="image" src="https://github.com/user-attachments/assets/26211f89-47c7-4bc0-b063-2aa26b37a1f1" />
+
+
+
+<img width="1217" height="535" alt="image" src="https://github.com/user-attachments/assets/6155d404-be33-478d-a5db-84b15c6a51c9" />
+
+
 # 🏆 Best Performing Model
 
 ## XGBoost Classifier (Tuned)
