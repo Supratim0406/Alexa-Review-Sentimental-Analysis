@@ -11,9 +11,7 @@
 
 🎉 Excited to announce that our model boasts an impressive 𝟗3% 𝐚𝐜𝐜𝐮𝐫𝐚𝐜𝐲 𝐫𝐚𝐭𝐞, providing companies with actionable insights for product development and enhancing overall user experience
 
-from pathlib import Path
-
-readme_content = r"""# Amazon Alexa Review - Sentiment Analysis
+# Amazon Alexa Review - Sentiment Analysis
 
 An end-to-end Natural Language Processing (NLP) and Machine Learning project that analyzes Amazon Alexa customer reviews and predicts whether the sentiment is positive or negative.
 
@@ -161,3 +159,202 @@ The project uses:
 
 ```python
 CountVectorizer(max_features=2500)
+```
+
+This converts customer reviews into numerical vectors based on the frequency of important words.
+
+---
+
+# 🤖 Machine Learning Models Used
+
+The project trains and compares multiple machine learning models:
+
+| Model | Purpose |
+|---|---|
+| Logistic Regression | Linear classification baseline |
+| Random Forest Classifier | Ensemble learning model |
+| Multinomial Naive Bayes | NLP-based probabilistic classifier |
+| XGBoost Classifier | Gradient boosting model |
+
+---
+
+# 🔧 Hyperparameter Tuning
+
+The project uses:
+
+## GridSearchCV
+
+for optimizing model performance.
+
+### Tuned Parameters Include:
+
+- Learning rate
+- Max depth
+- Number of estimators
+- Regularization parameters
+- Solver selection
+- Alpha smoothing
+
+Cross-validation is used for better model generalization.
+
+---
+
+# 📈 Model Evaluation Metrics
+
+Models are evaluated using:
+
+- Accuracy Score
+- Precision Score
+- Recall Score
+- F1 Score
+- ROC-AUC Score
+
+---
+
+# 🏆 Best Performing Model
+
+## XGBoost Classifier (Tuned)
+
+Among all the trained models, the tuned XGBoost Classifier achieved the best overall performance for sentiment classification.
+
+### Why XGBoost performed best
+
+- Handles sparse text features efficiently
+- Works well with high-dimensional NLP data
+- Provides better generalization
+- Reduces overfitting using boosting techniques
+
+---
+
+# 🔄 Project Workflow
+
+```text
+Dataset Collection
+        ↓
+Data Cleaning
+        ↓
+Exploratory Data Analysis
+        ↓
+Text Preprocessing
+        ↓
+Feature Extraction using CountVectorizer
+        ↓
+Train-Test Split
+        ↓
+Model Training
+        ↓
+Hyperparameter Tuning
+        ↓
+Model Evaluation
+        ↓
+Sentiment Prediction
+```
+
+---
+
+# 📁 Folder Structure
+
+```bash
+Amazon-Alexa-Review-Sentiment-Analysis/
+│
+├── Amazon Alexa Review - Sentiment Analysis.ipynb
+├── amazon_alexa.tsv
+├── README.md
+└── requirements.txt
+```
+
+---
+
+# 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Supratim0406/Alexa-Review-Sentimental-Analysis.git
+```
+
+Move into the project directory:
+
+```bash
+cd Alexa-Review-Sentimental-Analysis
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# ▶️ Run the Project
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+Open the notebook:
+
+```bash
+Amazon Alexa Review - Sentiment Analysis.ipynb
+```
+
+---
+
+# 📌 Key Insights
+
+- More than 90% of reviews are positive.
+- Positive reviews are generally longer and more descriptive.
+- Product variation influences customer ratings.
+- NLP preprocessing significantly improves classification performance.
+- XGBoost outperformed traditional ML algorithms.
+
+---
+
+# 🔮 Future Improvements
+
+Potential improvements for production deployment:
+
+- Deploy using Streamlit or Flask
+- Use TF-IDF Vectorization
+- Integrate Deep Learning models (LSTM/GRU)
+- Use Transformer models like BERT
+- Dockerize the project
+- Deploy on AWS/GCP/Azure
+- Create REST APIs for inference
+
+---
+
+# 🎯 Skills Demonstrated
+
+This project demonstrates practical knowledge of:
+
+- Natural Language Processing (NLP)
+- Text Cleaning & Preprocessing
+- Exploratory Data Analysis
+- Feature Engineering
+- Machine Learning Classification
+- Hyperparameter Tuning
+- Model Evaluation
+- Data Visualization
+
+---
+
+# 👨‍💻 Author
+
+## Supratim Saha
+
+- GitHub: https://github.com/Supratim0406
+- LinkedIn: https://www.linkedin.com/in/itsmesupratim/
+
+---
+
+# 🔗 Repository Link
+
+https://github.com/Supratim0406/Alexa-Review-Sentimental-Analysis
+
+---
+
+# ⭐ If you found this project useful, don't forget to give it a star on GitHub.
